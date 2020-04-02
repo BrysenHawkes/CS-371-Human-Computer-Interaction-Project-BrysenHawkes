@@ -8,9 +8,9 @@ var eb1 = false;
 //html code for content items
 function showArtAssignment() {
     if (aa1)
-        contentContainer.insertAdjacentHTML('beforeend', '<div class = "smallContent";><table><tr><th onclick = "changeaa1()" id="aa1" rowspan = "2", class = "checkBox";><img src="checkbox_checked.png"></th><th class = "top-left";>Art Project 06</th><th class = "top-right";><a href="instructions_placeholder.html";>Instructions</a> | <a href="announcement_placeholder.html";>Submit</a></th></tr><tr><th class = "bottom-left";>ART 101</th><th class = "bottom-right";>Due: 03/15/2020 11:59pm</th></tr></table></div>');
+        contentContainer.insertAdjacentHTML('beforeend', '<div class = "smallContent";><table><tr><th onclick = "changeaa1()" id="aa1" rowspan = "2", class = "checkBox";><img src="checkbox_checked.png"></th><th class = "top-left";>Art Project 06</th><th class = "top-right";><a href="instructions_placeholder.html";>Instructions</a> | <a href="assignment_placeholder.html";>Submit</a></th></tr><tr><th class = "bottom-left";>ART 101</th><th class = "bottom-right";>Due: 03/15/2020 11:59pm</th></tr></table></div>');
     else
-        contentContainer.insertAdjacentHTML('beforeend', '<div class = "smallContent";><table><tr><th onclick = "changeaa1()" id="aa1" rowspan = "2", class = "checkBox";><img src="checkbox_unchecked.png"></th><th class = "top-left";>Art Project 06</th><th class = "top-right";><a href="instructions_placeholder.html";>Instructions</a> | <a href="announcement_placeholder.html";>Submit</a></th></tr><tr><th class = "bottom-left";>ART 101</th><th class = "bottom-right";>Due: 03/15/2020 11:59pm</th></tr></table></div>');
+        contentContainer.insertAdjacentHTML('beforeend', '<div class = "smallContent";><table><tr><th onclick = "changeaa1()" id="aa1" rowspan = "2", class = "checkBox";><img src="checkbox_unchecked.png"></th><th class = "top-left";>Art Project 06</th><th class = "top-right";><a href="instructions_placeholder.html";>Instructions</a> | <a href="assignment_placeholder.html";>Submit</a></th></tr><tr><th class = "bottom-left";>ART 101</th><th class = "bottom-right";>Due: 03/15/2020 11:59pm</th></tr></table></div>');
 }
 
 function showArtBoard() {
